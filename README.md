@@ -1,16 +1,17 @@
-# TSA-EXP-1B
-Ex.No: 1B CONVERSION OF NON STATIONARY TO STATIONARY DATA
-Date:
-AIM:
-To perform regular differncing,seasonal adjustment and log transformatio on international airline passenger data
+# Ex.No: 1B                     CONVERSION OF NON STATIONARY TO STATIONARY DATA
+# Date: 26.08.2025
+# Name: Mohamed Nadheem N
 
-ALGORITHM:
-Import the required packages like pandas and numpy
-Read the data using the pandas
-Perform the data preprocessing if needed and apply regular differncing,seasonal adjustment,log transformation.
-Plot the data according to need, before and after regular differncing,seasonal adjustment,log transformation.
-Display the overall results.
-PROGRAM:
+### AIM:
+To perform regular differncing,seasonal adjustment and log transformatio on international airline passenger data
+### ALGORITHM:
+1. Import the required packages like pandas and numpy
+2. Read the data using the pandas
+3. Perform the data preprocessing if needed and apply regular differncing,seasonal adjustment,log transformation.
+4. Plot the data according to need, before and after regular differncing,seasonal adjustment,log transformation.
+5. Display the overall results.
+### PROGRAM:
+
 ```
 import pandas as pd
 import numpy as np
@@ -102,14 +103,57 @@ plt.ylabel('SDiff(RDiff(Log(Avg Bat Strike Rate)))')
 
 plt.tight_layout()
 plt.show()
+
 ```
 
-OUTPUT:
-REGULAR DIFFERENCING:
+### OUTPUT:
 
-SEASONAL ADJUSTMENT:
 
-LOG TRANSFORMATION:
+ORIGINAL DATA
+<img width="1234" height="204" alt="Screenshot 2025-08-26 121512" src="https://github.com/user-attachments/assets/506d0572-d473-4e6e-994c-67b0c4a2c30f" />
 
-RESULT:
-Thus we have created the python code for the conversion of non stationary to stationary data on international airline passenger data.
+
+
+
+
+REGULAR DIFFERENCING
+<img width="1232" height="187" alt="image" src="https://github.com/user-attachments/assets/4890bb20-a936-4ddc-b482-5bc836f474aa" />
+
+
+
+
+
+SEASONAL ADJUSTMENT
+<img width="1275" height="210" alt="image" src="https://github.com/user-attachments/assets/0faf398b-5945-4d98-96a8-a6a01b61ecac" />
+
+
+
+
+
+LOG TRANSFORMATION
+<img width="1262" height="214" alt="Screenshot 2025-08-26 122216" src="https://github.com/user-attachments/assets/9197a749-eaa3-4a9d-8a5e-6cbd9d447cc8" />
+
+
+
+
+
+
+LOG TRANSFORMATION AND REGULAR DIFFERENCING
+<img width="1238" height="208" alt="image" src="https://github.com/user-attachments/assets/8e979d9f-6daf-4d39-86b7-d369283e387d" />
+
+
+
+
+
+
+LOG + REGULAR DIFF + SEASONAL DIFF
+<img width="1255" height="207" alt="image" src="https://github.com/user-attachments/assets/c0a02367-3130-45c1-b1fb-98f03160a0cd" />
+
+
+
+
+
+
+### RESULT:
+Thus we have created the python code for the conversion of non stationary to stationary data on international airline passenger
+data.
